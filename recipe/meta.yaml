@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - seamm=seamm.__main__:flowchart
@@ -41,6 +41,8 @@ requirements:
     - pyuca
     - reference-handler
     - requests
+    - seamm-ff-util
+    - seamm-installer
     - seamm-util
     - seamm-widgets
     - stevedore
