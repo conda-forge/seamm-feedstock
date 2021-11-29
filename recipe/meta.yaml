@@ -1,6 +1,6 @@
 {% set name = "seamm" %}
-{% set version = "2021.10.25" %}
-{% set sha256 = "aa8d5537f9b316706fb78516f3b562108d2f02402bcdad3d7911aa2d687e3329" %}
+{% set version = "2021.11.27" %}
+{% set sha256 = "d05b20b57d592aa1a448ab88fcd8b9b62c8c45ecdf080746320d33175a63ef5e" %}
 
 
 package:
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - seamm=seamm.__main__:flowchart
@@ -41,6 +41,7 @@ requirements:
     - pyuca
     - reference-handler
     - requests
+    - seamm-datastore
     - seamm-ff-util
     - seamm-installer
     - seamm-util
