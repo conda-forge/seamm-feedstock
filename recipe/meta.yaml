@@ -41,8 +41,10 @@ requirements:
     - pyuca
     - reference-handler
     - requests
+    - seamm-datastore
     - seamm-ff-util
     - seamm-installer
+    - seamm-jobserver
     - seamm-util
     - seamm-widgets
     - stevedore
