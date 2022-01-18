@@ -1,6 +1,6 @@
 {% set name = "seamm" %}
-{% set version = "2021.12.21" %}
-{% set sha256 = "97fd6d359e31f7e2543b5992944fcdad61deec58e98c1f90e46aa438d45c711d" %}
+{% set version = "2022.1.17" %}
+{% set sha256 = "36852fc7156ce3da73a13056c58ebadd19021f384e8ca3ffdbf3fcb62ae22ffb" %}
 
 
 package:
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - seamm=seamm.__main__:flowchart
