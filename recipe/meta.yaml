@@ -41,6 +41,7 @@ requirements:
     - pyuca
     - reference-handler
     - requests
+    - requests-toolbelt
     - seamm-datastore
     - seamm-ff-util
     - seamm-util
