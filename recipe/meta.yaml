@@ -1,6 +1,6 @@
 {% set name = "seamm" %}
-{% set version = "2022.2.1" %}
-{% set sha256 = "5fe3307ca97b00d0e5627378d7a7929c64b3697a2dec955507b2fed89af8fcd8" %}
+{% set version = "2022.2.12" %}
+{% set sha256 = "07ba0485688b344e2d509b17ec885932664876ec88999e2c9ad63bcdc9f8d41d" %}
 
 
 package:
