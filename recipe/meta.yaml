@@ -1,6 +1,6 @@
 {% set name = "seamm" %}
-{% set version = "2022.6.9" %}
-{% set sha256 = "aeecded167387a41e155b9787835bbc3526d50fcd019894c3d6a22ae12a4d33f" %}
+{% set version = "2022.7.25" %}
+{% set sha256 = "6f03096445921cf7014fd4c06ef44d8d7e774a5d45e7ede4d5d4df7dbb5c32a5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/s/seamm/seamm-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/5c/78/924498f07543c3fcee325c81a1c2b1f6c4490842ffe2414d8e578bfa7d71/seamm-2022.7.25.tar.gz
   sha256: {{ sha256 }}
 
 build:
