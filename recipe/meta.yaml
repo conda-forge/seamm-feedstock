@@ -1,6 +1,6 @@
 {% set name = "seamm" %}
-{% set version = "2022.7.25" %}
-{% set sha256 = "6f03096445921cf7014fd4c06ef44d8d7e774a5d45e7ede4d5d4df7dbb5c32a5" %}
+{% set version = "2022.9.8" %}
+{% set sha256 = "8f1f7e77f63ee360c886a68eb0b3636108e89e62d567a76fbd401b1b3f14619c" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/5c/78/924498f07543c3fcee325c81a1c2b1f6c4490842ffe2414d8e578bfa7d71/seamm-2022.7.25.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/seamm-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -40,8 +40,7 @@ requirements:
     - python-dateutil
     - pyuca
     - reference-handler
-    - requests
-    - requests-toolbelt
+    - seamm-dashboard-client
     - seamm-datastore
     - seamm-ff-util
     - seamm-util
