@@ -1,11 +1,11 @@
-About seamm
-===========
+About seamm-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/seamm-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/molssi-seamm/seamm
 
 Package license: LGPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/seamm-feedstock/blob/main/LICENSE.txt)
 
 Summary: The Simulation Environment for Atomistic and Molecular Modeling (SEAMM)
 
