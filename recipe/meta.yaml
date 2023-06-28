@@ -56,7 +56,6 @@ test:
     - run_flowchart --help
   requires:
     - pip
-    - freetype-py < 2.4.0
 
 about:
   home: https://github.com/molssi-seamm/seamm
