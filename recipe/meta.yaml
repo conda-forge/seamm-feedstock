@@ -35,8 +35,10 @@ requirements:
     - pandas
     - pillow
     - pmw
+    - py-cputil
     - python >=3.8
     - python-dateutil
+    - pyuca
     - reference-handler
     - seamm-dashboard-client
     - seamm-datastore
