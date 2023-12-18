@@ -35,7 +35,7 @@ requirements:
     - pandas
     - pillow
     - pmw
-    - py-cputil
+    - py-cpuinfo
     - python >=3.8
     - python-dateutil
     - pyuca
