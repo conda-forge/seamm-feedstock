@@ -27,6 +27,7 @@ requirements:
   run:
     - bibtexparser
     - jinja2
+    - molsystem
     - numpy
     - packaging
     - pandas
