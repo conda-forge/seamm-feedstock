@@ -35,10 +35,8 @@ requirements:
     - pandas
     - pillow
     - pmw
-    - py-cpuinfo
     - python >=3.8
     - python-dateutil
-    - pyuca
     - reference-handler
     - seamm-dashboard-client
     - seamm-datastore
@@ -53,7 +51,6 @@ test:
   commands:
     - pip check
     - seamm --help
-    - run_flowchart --help
   requires:
     - pip
     - freetype-py < 2.4.0
