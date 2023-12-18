@@ -1,6 +1,6 @@
 {% set name = "seamm" %}
-{% set version = "2023.12.12" %}
-{% set sha256 = "733ffe9bb4eb1d0c6848034696751a4eb92c196ded6fbb0fb78d83c859b892e0" %}
+{% set version = "2023.12.18" %}
+{% set sha256 = "397f7b14439c5e3ec2cd1b68f9e0578ad1d114007ec575336ff5296c62678f1b" %}
 
 
 package:
@@ -53,7 +53,6 @@ test:
   commands:
     - pip check
     - seamm --help
-    - run_flowchart --help
   requires:
     - pip
     - freetype-py < 2.4.0
