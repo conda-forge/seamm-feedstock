@@ -1,13 +1,13 @@
 {% set name = "seamm" %}
-{% set version = "2024.10.20" %}
-{% set sha256 = "a35a4b4c698cdefef2fc8fddc29923b0055209628b962f1a6f2b02efab777d1e" %}
+{% set version = "2024.11.1" %}
+{% set sha256 = "5659b2776cf1f879b1390f255b97ddd6b023f4f2d2d411adfeda514174a63ca9" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/seamm-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/seamm-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -35,6 +35,7 @@ requirements:
     - pillow
     - pmw
     - py-cpuinfo
+    - pyperclip
     - python >=3.8
     - python-dateutil
     - pyuca
