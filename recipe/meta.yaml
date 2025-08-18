@@ -1,6 +1,6 @@
 {% set name = "seamm" %}
-{% set version = "2025.8.18" %}
-{% set sha256 = "9030b9bb2f2be61d1ad9611447e7c1cf39da6b470b34859c36a6e80f0363b7d7" %}
+{% set version = "2025.8.18.1" %}
+{% set sha256 = "5acdabe70ea95ee42bf30ac74e4a450de28ae4e2d3494380a52a42fc561bdcf9" %}
 
 package:
   name: {{ name|lower }}
@@ -33,7 +33,6 @@ requirements:
     - packaging
     - pandas
     - pillow
-    - plotly
     - pmw
     - py-cpuinfo
     - pyperclip
