@@ -24,7 +24,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - bibtexparser
+    - bibtexparser <2
     - fasteners
     - humanize
     - jinja2
@@ -55,7 +55,7 @@ test:
     - seamm --help
   requires:
     - pip
-    - freetype-py < 2.4.0
+    - freetype-py <2.4.0
     - python {{ python_min }}
 
 about:
